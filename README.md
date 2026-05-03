@@ -20,14 +20,14 @@ Functional flow metrics were calculated following Yarnell et al. (2020) for wate
 
 ## Analysis Pipeline
 
-### 01_detection_cleaning.R
+### detection_cleaning_gsflow.R
 - Queries and filters detections from PATH database
 - Assigns receiver groups (1-24) based on spatial location
 - Classifies migration status (up_complete, up_incomplete, down_complete, etc.)
 - Removes double-tagged fish and applies manual corrections for validated migrants with detection gaps
 - Outputs: `events_with_receivergroups_032026.csv`
 
-### 02_analysis.R
+### gs_analysis_clean_final.R
 - Builds route strings and classifies Delta vs. mainstem Sacramento routes
 - Calculates mean discharge during each fish's migration window (Hamilton City and Verona gauges)
 - Calculates mean water temperature one week prior to Benicia Bridge detection

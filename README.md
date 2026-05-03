@@ -1,8 +1,8 @@
 # sturgeon_functional_flow
 Code repository for PhD work with green sturgeon and functional flow movement analysis
 ## Data
-
-Raw acoustic telemetry detections were queried from the Pacific Animal Telemetry Hub (PATH) database. Only cleaned and processed detection data are provided in this repository. The following receiver arrays were used:
+Raw detection data and intermediate cleaned datasets are available upon request from the corresponding author. The analysis-ready datasets provided here are sufficient to reproduce all GLM and BRT analyses presented in the manuscript."
+Raw acoustic telemetry detections were queried from the Pacific Animal Telemetry Hub (PATH) database. The following receiver arrays were used:
 
 - **Golden Gate / Bay** (group 1) — San Francisco Bay estuary entry
 - **Benicia / Carquinez** (group 2) — tidal freshwater entry
